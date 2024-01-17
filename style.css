@@ -1,0 +1,39 @@
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 530px;
+  height: 530px;
+  border: solid black;
+}
+
+#container div {
+  flex: auto;
+  margin: 0;
+  display: flex;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  height: max-content;
+  width: max-content;
+}
+
+p {
+  font-weight: bold;
+  width: max-content;
+  height: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
