@@ -62,9 +62,9 @@ p {
   width: 750px;
   padding: 50px;
   margin-top: 50px;
-  background-color: rgb(255, 0, 0);
+  /* background-color: rgb(255, 0, 0); */
 }
 
-.knobs #one {
+/* .knobs #one {
   border: solid white;
-}
+} */
