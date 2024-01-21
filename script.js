@@ -10,9 +10,10 @@ function makeDivs(numDivs) {
     cells.addEventListener("mouseover", () => {
       cells.setAttribute("style", "background-color: black");
     });
+    reset.addEventListener("click", () => {
+      cells.setAttribute("style", "background-color: white");
+    });
   }
 }
-
-reset.addEventListener("click", () => {});
 
 makeDivs(256);
